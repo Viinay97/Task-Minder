@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  background-color: rgb(215, 252, 185);
+}
+
+#add,
+input {
+  padding: 0.7rem 0.5rem;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+#add:active{
+    background-color:rgb(0, 79, 0);
+}
+
+#delete:active{
+    background-color:rgb(189, 2, 2);
+}
+
+button {
+  color: white;
+  border-radius: 3px;
+}
+
+#add {
+  background-color: rgb(2, 170, 2);
+  width: 20%;
+}
+
+#delete {
+  background-color: red;
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+
+input {
+  margin-right: 0.8rem;
+  width: 70%;
+}
+
+.todo {
+  font-size: 1.2rem;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.container {
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  background-color: rgb(233, 255, 215);
+  margin: auto;
+  margin-top: 17vh;
+  padding: 2% 2%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-size: 1.2rem;
+}
